@@ -1,0 +1,12 @@
+# area of a circle
+rad = float(input("Enter the radius of the circle whose area you want to calculate: "))
+area = 3.14 * rad**2
+print("The area of the circle with radius ",rad," is = ",area)
+
+
+
+
+# file extension program
+name_of_file = input("Please enter the Filename: ")
+file_extns = name_of_file.split(".")
+print ("The extension of the entered filename is : " + repr(file_extns[-1]))
